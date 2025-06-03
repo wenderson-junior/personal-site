@@ -1,15 +1,17 @@
+import { Header } from "./components/header/header";
+import { Footer } from "./components/footer/footer";
+import { Container } from "./components/ui/Container";
+
 export default function Home() {
   return (
-    <div>
-      <header>
-        <h1>Header</h1>
-      </header>
-      <main>
-        <h1>Hello World</h1>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-grow py-8">
+        <Container>
+          Content
+        </Container>
       </main>
-      <footer>
-        <h1>Footer</h1>
-      </footer>
+      <Footer />
     </div>
   );
 }
