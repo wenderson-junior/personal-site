@@ -1,0 +1,17 @@
+{
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "welcome": "Bem-vindo ao meu site pessoal!"
+  },
+  "footer": {
+    "copyright": "© {year} Wenderson Junior. Todos os direitos reservados."
+  },
+  "languageSwitcher": {
+    "label": "Idioma",
+    "en": "Inglês",
+    "pt-BR": "Português (Brasil)"
+  }
+}
