@@ -6,6 +6,19 @@
     "contact": "Contact",
     "welcome": "Welcome to my personal website!"
   },
+  "hero": {
+    "title": {
+      "greeting": "Hi, I'm",
+      "name": "Wenderson",
+      "role": "Software Engineer focused on Front-end"
+    },
+    "subtitle": "I'm a software engineer with over 8 years of experience crafting scalable, high-performance web applications. I care deeply about clean code, great user experience, performance, and accessibility. I enjoy working closely with product and design teams, making thoughtful technical decisions based on best practices and metrics, and building solutions that actually make a difference.",
+    "cta": {
+      "resume": "Download CV",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
   "footer": {
     "copyright": "© {year} Wenderson Junior. All rights reserved."
   },

@@ -6,6 +6,19 @@
     "contact": "Contato",
     "welcome": "Bem-vindo ao meu site pessoal!"
   },
+  "hero": {
+    "title": {
+      "greeting": "Olá, eu sou o",
+      "name": "Wenderson",
+      "role": "Engenheiro de Software com foco em Front-end"
+    },
+    "subtitle": "Sou um engenheiro de software com mais de 8 anos de experiência criando aplicações web escaláveis e de alta performance. Dou muita importância a escrever um código limpo, boa experiência do usuário, performance e acessibilidade. Gosto de trabalhar de perto com times de produto e design, tomar decisões técnicas baseadas em boas práticas e métricas e construir soluções que realmente fazem a diferença.",
+    "cta": {
+      "resume": "Baixar Currículo",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
   "footer": {
     "copyright": "© {year} Wenderson Junior. Todos os direitos reservados."
   },

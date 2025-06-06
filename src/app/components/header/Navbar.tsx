@@ -7,7 +7,7 @@ import { MobileMenu } from "./MobileMenu";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { useEffect, useState } from "react";
 
-export function Header() {
+export function Navbar() {
   const [scrolled, setScrolled] = useState<boolean | null>(null);
 
   useEffect(() => {

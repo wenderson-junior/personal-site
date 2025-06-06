@@ -8,8 +8,6 @@ interface MobileMenuProps {
   className?: string;
 }
 
-
-
 export function MobileMenu({ className = '' }: MobileMenuProps) {
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations('navigation');
@@ -42,7 +40,7 @@ export function MobileMenu({ className = '' }: MobileMenuProps) {
 
       {/* Mobile menu dropdown */}
       {isOpen && (
-        <div className="absolute top-16 left-0 right-0 z-50 bg-white dark:bg-gray-950 shadow-lg">
+        <div className="absolute top-16 left-0 right-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-xl shadow-lg border-b border-gray-200 dark:border-gray-800">
           <div className="px-4 py-2">
             {navItems.map((item) => (
               <a
