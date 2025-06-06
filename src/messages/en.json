@@ -6,6 +6,10 @@
     "contact": "Contact",
     "welcome": "Welcome to my personal website!"
   },
+  "skills": {
+    "title": "My Skills",
+    "description": "Technologies and tools I work with on a daily basis"
+  },
   "hero": {
     "title": {
       "greeting": "Hi, I'm",
