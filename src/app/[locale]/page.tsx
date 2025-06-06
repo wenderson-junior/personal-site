@@ -10,7 +10,6 @@ export default function Home() {
       <Header />
       <main className="flex-grow bg-gray-950 pt-24">
         <Hero />
-        {/* Outras seções serão adicionadas aqui */}
       </main>
       <Footer />
     </div>
