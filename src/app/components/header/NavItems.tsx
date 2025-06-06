@@ -12,8 +12,6 @@ interface NavItemsProps {
   className?: string;
 }
 
-
-
 export function NavItems({ className = '' }: NavItemsProps) {
   const t = useTranslations('navigation');
   
@@ -30,7 +28,7 @@ export function NavItems({ className = '' }: NavItemsProps) {
         <a 
           key={item.label} 
           href={item.href} 
-          className="dark:text-gray-400 transition-colors duration-200 dark:hover:text-gray-50 cursor-pointer font-medium"
+          className="dark:text-gray-400 transition-colors duration-200 dark:hover:text-gray-50 cursor-pointer font-semibold"
         >
           {item.label}
         </a>

@@ -6,7 +6,7 @@ interface LogoProps {
 
 export function Logo({ className = '' }: LogoProps) {
   return (
-    <div className={`text-xl font-bold cursor-pointer ${className}`}>
+    <div className={`text-xl font-extrabold cursor-pointer ${className}`}>
       &lt;WJR /&gt;
     </div>
   );
