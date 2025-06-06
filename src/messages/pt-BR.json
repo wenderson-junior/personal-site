@@ -6,6 +6,10 @@
     "contact": "Contato",
     "welcome": "Bem-vindo ao meu site pessoal!"
   },
+  "skills": {
+    "title": "Minhas Habilidades",
+    "description": "Tecnologias e ferramentas que utilizo no dia a dia"
+  },
   "hero": {
     "title": {
       "greeting": "Olá, eu sou o",
